@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Insurance Plan</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body id="plans">
+    <a href="project.html"><i class="ri-arrow-left-line"></i></a>
+    
+    <div class="headline">
+        
+        <img src="people leaf logo,healthy logo.png" alt="Logo" class="logo">
+        <h1 class="title">Fasal Insurance</h1>
+    </div>
+   
+
+    <div class="insurance-container">
+        <h1>Crop Insurance Plan</h1>
+
+        <form id="insurance-form">
+            <h3>Select the coverage options you want:</h3>
+            
+            <!-- Coverage for Natural Calamities -->
+            <div class="coverage-section">
+                <h4>Natural Calamities:</h4>
+                <label><input type="checkbox" name="calamity" value="Drought"> Drought</label><br>
+                <label><input type="checkbox" name="calamity" value="Flooding"> Flooding</label><br>
+                <label><input type="checkbox" name="calamity" value="Hailstorm"> Hailstorm</label><br>
+                <label><input type="checkbox" name="calamity" value="Cyclones"> Cyclones</label><br>
+                <label><input type="checkbox" name="calamity" value="Fire"> Fire</label><br>
+            </div>
+
+            <!-- Coverage for Pests and Diseases -->
+            <div class="coverage-section">
+                <h4>Pests and Diseases:</h4>
+                <label><input type="checkbox" name="pests" value="Pest Attacks"> Pest Attacks</label><br>
+                <label><input type="checkbox" name="pests" value="Crop Diseases"> Crop Diseases</label><br>
+            </div>
+
+            <!-- Yield and Weather Protection -->
+            <div class="coverage-section">
+                <h4>Yield and Weather Protection:</h4>
+                <label><input type="checkbox" name="yield" value="Low Yield"> Low Yield</label><br>
+                <label><input type="checkbox" name="yield" value="Quality Loss"> Quality Loss</label><br>
+                <label><input type="checkbox" name="weather" value="Temperature Variation"> Temperature Variation</label><br>
+                <label><input type="checkbox" name="weather" value="Rainfall Variation"> Rainfall Variation</label><br>
+            </div>
+
+            <!-- Price Protection -->
+            <div class="coverage-section">
+                <h4>Price Protection (Market Risk):</h4>
+                <label><input type="checkbox" name="market" value="Price Drop"> Price Drop</label><br>
+            </div>
+
+            <button type="button" id="submit-btn">Submit</button>
+        </form>
+
+        <div id="summary">
+            <h3>Your Selected Insurance Plan:</h3>
+            <ul id="selected-options"></ul>
+        </div>
+    </div>
+
+    <script src="project.js"></script>
+</body>
+</html>

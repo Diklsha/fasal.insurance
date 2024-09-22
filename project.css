@@ -1,0 +1,340 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.back {
+    width: 100%;
+    height: 700px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background:url(pexels-freestockpro-1227513.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.block{
+    background:linear-gradient(#21883798, #084e17);
+    width: 100%;
+    height: 100%;
+}
+.navigation{
+    width: 100%;
+    height: 120px;
+    padding: 1% 4%;
+    display: flex;
+    justify-content:space-between;
+}
+.headline{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Header Section */
+.title{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.navigation a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.links{
+    padding-top:30px ;
+}
+
+.logo {
+    border-radius: 70px;
+    width: 80px;
+}
+
+/* Home Section */
+.content{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    text-align:center ;
+    margin: 100px 0;
+}
+.content h2{
+    font-size: 100px;
+    color: #084e17;   
+}
+.content .shadow{
+    position: absolute;
+    color: #ccc;
+    left: 27%;
+    top: 1%;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* About Section */
+#about .title{
+    color: #a3670d;
+}
+#about a{
+    color: #218838;
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 550px;
+}
+.about-content .content1{
+    width: 40%;
+    height: 300px;
+    padding: 200px 0;
+}
+
+.about-content .content2{
+    width: 40%;
+    height: 300px;
+}
+.about-image {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Report Crop Loss Section */
+.report-image {
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#form-result, #crop-loss-result {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+/* Footer Section */
+#contact{
+    background-color: #063c1154;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-weight: 700;
+}
+.container h2{
+    text-align: center;
+}
+/*contact us*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.newimg {
+    background-image: url(contact.jpg);
+}
+.newimg .headline{
+    position: absolute;
+    left: 100px;  
+}
+.newimg .headline h1{
+    font-size:20px ;
+    color: #096d15;
+}
+.newimg i{
+    position: absolute;
+    font-size: 30px;
+    color: #ccc;
+    top: 65px;
+    left: 20px;
+}
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/*insurance plan*/
+#plans {
+    font-family: Arial, sans-serif;
+    background-image: url(plansimg.png);
+}
+#plans .headline{
+    position: absolute;
+    left: 100px;  
+}
+#plans .headline h1{
+    font-size:20px ;
+    color: #a3670d;
+}
+#plans i{
+    position: absolute;
+    font-size: 30px;
+    color: #ccc;
+    top: 65px;
+    left: 20px;
+}
+
+.insurance-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgba(174, 231, 165, 0.803);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.coverage-section {
+    margin: 20px 0;
+}
+
+h4 {
+    color: #444;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#summary {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+}
+
+#summary h3 {
+    color: #444;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+#report {
+    font-family: Arial, sans-serif;
+    background-image: url(report.jpg);
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#report .headline{
+    position: absolute;
+    left: 100px;  
+}
+#report .headline h1{
+    font-size:20px ;
+    color: #a3670d;
+}
+#report i{
+    position: absolute;
+    font-size: 30px;
+    color: #ccc;
+    top: 65px;
+    left: 20px;
+}

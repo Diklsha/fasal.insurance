@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+
+</head>
+<body background="contact.jpg">
+    
+
+    <!-- Header Section -->
+    <header>
+        
+        <div class="navigation">
+           <div class="headline"> <img src="people leaf logo,healthy logo.png" alt="Logo" class="logo">
+                <h1 class="title">Fasal Insurance</h1></div>
+                    <div class="links"><a href="project.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="insurance.html">Insurance Plans</a>
+                    <a href="apply.html">Apply Now</a>
+                    <a href="report.html">Report Crop Loss</a>
+                    <a href="contact.html">Contact</a></div>
+                
+            
+        </div>
+    </header>
+
+     
+
+    <!-- Application Form Section -->
+    <section id="apply">
+        <div class="container">
+            <h2>Apply for Insurance</h2>
+            <br>
+            <form id="insurance-form" action="https://formspree.io/f/mdknvkgr" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            
+                <label for="insurance-type">Select Insurance Type:</label>
+                <select id="insurance-type" name="insurance_type">
+                    <option value="crop">Crop Insurance</option>
+                    <option value="life">Life Insurance</option>
+                    <option value="health">Health Insurance</option>
+                </select>
+            
+                <button type="submit">Submit</button>
+            </form>
+             <p id="form-result"></p>
+        </div>
+    </section>
+
+   
+</body>
+</html>

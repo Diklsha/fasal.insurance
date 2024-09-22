@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="project.css">
+    
+</head>
+<body id="report">
+        <a href="project.html"><i class="ri-arrow-left-line"></i></a>
+        
+        <div class="headline">
+            
+            <img src="people leaf logo,healthy logo.png" alt="Logo" class="logo">
+            <h1 class="title">Fasal Insurance</h1>
+        </div>
+      <!-- Report Crop Loss Section -->
+      <section id="report">
+        <div class="container">
+            <h2>Report Crop Loss</h2>
+            <form id="crop-loss-form" action="https://formspree.io/f/mdknvkgr" method="POST">
+                <label for="farmer-name">Farmer's Name:</label>
+                <input type="text" id="farmer-name" name="farmer-name" required>
+                <label for="crop-type">Crop Type:</label> 
+                <select id="crop-type" name="crop-type">
+                    <option value="wheat">Wheat</option>
+                    <option value="rice">Rice</option>
+                    <option value="maize">Maize</option>
+                    <option value="other">Other</option>
+                </select>
+            
+                <label for="cause">Cause of Loss:</label>
+                <input type="text" id="cause" name="cause" required>
+            
+                <label for="date">Date of Loss:</label>
+                <input type="date" id="date" name="date" required>
+            
+                <label for="area">Affected Area (in acres):</label>
+                <input type="number" id="area" name="area" required>
+            
+                <button type="submit">Submit Report</button>
+            </form>
+            
+            <p id="crop-loss-result"></p>
+            <img src="young-woman-making-notes-notepad-while-sitting-flower-garden.jpg" alt="Damaged crop fields" class="report-image">
+        </div>
+    </section>
+    
+</body>
+</html>
